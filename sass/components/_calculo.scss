@@ -1,0 +1,38 @@
+$bg1: #7241B2;
+$bg2: rgba(189, 195, 199, 0.7);
+$bg3: #2a0060;
+$bg-white:#fff;
+$bg-black:#000;
+
+.calculo{
+    width: 100%;
+    padding: 10px;
+    background: $bg3;
+    & .estimacion form{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        & input[type="text"],
+        input[type="date"],
+        select,input[type="submit"] {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 24%;
+            height: 30px;
+            outline: none;
+            border:none;
+            background: none;
+            border-bottom: 1px solid $bg-white;
+            color: white;
+        }
+        & select option{
+            color: black;
+        }
+        & input[type="submit"]{
+          background: $bg1;
+          border: 1px solid $bg-white;
+        cursor: pointer;
+        }
+    }
+}

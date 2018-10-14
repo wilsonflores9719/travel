@@ -1,0 +1,29 @@
+$bg1: #7241B2;
+$bg2: rgba(189, 195, 199, 0.7);
+$bg3: #2a0060;
+$bg-white:#fff;
+$bg-black:#000;
+
+.top{
+    width: 100%;
+    padding: 20px;
+    background: $bg1;
+}
+
+.paises{
+    ul>li{
+        display: block;
+        padding: 5px;
+        height: 30px;
+        line-height: 30px;
+        span{
+            color: #aaa;
+            margin-left: 10px;
+            
+        }
+        a{
+            color: $bg-white;
+            text-decoration: none;
+        }
+    }
+}

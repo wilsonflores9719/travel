@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*Header*/
+@import 'components/nav';
+/*Div1 (Formularios)*/
+@import 'components/c1';
+/*div2 Actividades*/
+@import 'components/actividades';
+/*div3 news*/
+@import 'components/news';
+/*div4 destinos*/
+@import 'components/destinos';
+/*div5 Calculo de gastos*/
+@import 'components/calculo';
+/*div6 BLOG*/
+@import 'components/blog';
+/*div7 tops*/
+@import 'components/top';
+/*div8 Footer*/
+@import 'components/footer';

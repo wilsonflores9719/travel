@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.css" rel="stylesheet" id="bootstrap-css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Travel</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+       <!--=============================================
+                       Cuadro con formulario
+           =============================================-->
+           <div class="row">
+                <div class="nav">
+                    <div class="row">
+                       <div class="col-12 col-md-12 nav-cont">
+                            <ul>
+                                <li><a href="#" class="logo">Travel</a></li>
+                                <li><a href="#">Vuelos</a></li>
+                                <li><a href="#">Hoteles</a></li>
+                                <li><a href="#">Alquiler de vehiculo</a></li>
+                                <li><a href="#">Buscador de Viaje</a></li>
+                            </ul>
+                       </div>
+                    </div>
+                </div>
+           </div>
+      
+       <!--=============================================
+                       Cuadro con formulario
+           =============================================-->
+        <div class="row">
+            <div class="header">
+            <div class="col-12 col-md-7 cita hidden-xs visible-md">
+                <blockquote class="blockquote">
+                  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
+            </div>
+            <div class="col-12 col-md-10 cont">
+                <form action="" class="form-nav">
+                       <div class="viaje">
+                        <ul>
+                            <li><a href="#" class="active"><i class="fas fa-plane-departure mr-2"></i>Vuelos</a></li>
+                            <li><a href="#"><i class="fas fa-hotel mr-2"></i>Hoteles</a></li>
+                            <li><a href="#"><i class="fas fa-taxi mr-2"></i>Transporte</a></li>
+                            <hr>
+                        </ul> 
+                       </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-2 text">
+                                <a href="#" class="disable"><i class="fas fa-map-marker-alt"></i></a>
+                                <input type="text" placeholder="Ciudad de Origen">
+                            </div>
+                            <div class="col-12 col-md-3 text">
+                               <a href="#" class="disable"><i class="fas fa-map-marker-alt"></i></a>
+                                <input type="text" placeholder="Ingrese Ciudad de Destino">
+                            </div>
+                            <div class="col-12 col-md-4 text">
+                                <input type="date">
+                                <span>&nbsp;</span>
+                                <input type="date">
+                            </div>
+                            <div class="col-12 col-md-2 text">
+                                  <select>
+                                    <option selected>1 persona(s)</option>
+                                    <option value="1">2 persona(s)</option>
+                                    <option value="2">3 persona(s)</option>
+                                    <option value="3">4 persona(s)</option>
+                                  </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-12 boton">
+                                 <input type="submit" value="Buscar">
+                           </div>
+                        </div>
+                        <br>
+                        <div class="row mr-5 mt-4">
+                            <div class="col-12">
+                                <div class="tipo">
+                                    <ul>
+                                        <li>
+                                            <label for="">Tipo de Viaje:</label>
+                                            <select name="" id="">
+                                                <option selected>Viaje ida y vuelta</option>
+                                                <option value="">Tipo 1</option>
+                                                <option value="">Tipo 2</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <label for="">Tipo de Boleto:</label>
+                                            <select name="" id="">
+                                                <option selected>Económico</option>
+                                                <option value="">Tipo 1</option>
+                                                <option value="">Tipo 2</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" class="mr-2" id="vuelo">
+                                            <label for="vuelo">Vuelo Directo</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" class="mr-2" id="airport">
+                                            <label for="airport">incluir aeropuerto cercano</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                </form>
+            </div>
+            </div>
+        </div>
+        
+       <!--=============================================
+                       Segundo div
+           =============================================-->
+        <div class="row">
+            <div class="actividades">
+                <div class="titulo">
+                        <h1 class="text-white text-center">Actividades</h1>
+                </div>
+                <div class="act">
+                    <ul>
+                        <li>
+                            <p class="text-white icon"><i class="fas fa-bicycle"></i></p>
+                            <p class="text-white text-act">5670 mts</p>
+                            <p class="text-white text-act">Ciclismo</p>
+                        </li>
+                        <li>
+                            <p class="text-white icon"><i class="fas fa-bicycle"></i></p>
+                            <p class="text-white text-act">5670 mts</p>
+                            <p class="text-white text-act">Ciclismo</p>
+                        </li>
+                        <li>
+                            <p class="text-white icon"><i class="fas fa-bicycle"></i></p>
+                            <p class="text-white text-act">5670 mts</p>
+                            <p class="text-white text-act">Ciclismo</p>
+                        </li>
+                        <li>
+                            <p class="text-white icon"><i class="fas fa-bicycle"></i></p>
+                            <p class="text-white text-act">5670 mts</p>
+                            <p class="text-white text-act">Ciclismo</p>
+                        </li>
+                        <li>
+                            <p class="text-white icon"><i class="fas fa-bicycle"></i></p>
+                            <p class="text-white text-act">5670 mts</p>
+                            <p class="text-white text-act">Ciclismo</p>
+                        </li>
+                        <li>
+                            <p class="text-white icon"><i class="fas fa-bicycle"></i></p>
+                            <p class="text-white text-act">5670 mts</p>
+                            <p class="text-white text-act">Ciclismo</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       <!--=============================================
+                       Tercer Div
+           =============================================-->
+        <div class="row">
+            <div class="news">
+                <div class="row">
+                    <div class="col-12 col-md-6"></div>
+                    <div class="col-12 col-md-6">
+                        <div class="datos">
+                            <h2>Suscribase para recibir nuestras promociones</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus consectetur officia et obcaecati esse. Expedita in asperiores illum eveniet?</p>
+                            <form action="" class="form">
+                                <input type="text" placeholder="Ingrese su Dirección de correo Electronico">
+                                <input type="submit" value="Aceptar">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!--=============================================
+                       Cuarto Div
+           =============================================-->
+        <div class="row">
+            <div class="destinos">
+               <h2>Destinos Populares</h2>
+                <div class="row content">
+                    <div class="col-12 col-md-3 card">
+                       <img src="https://cdn.pixabay.com/photo/2018/10/08/14/46/bird-3732867_960_720.jpg" alt="img">
+                       <h5>Title <span class="float-right">$1000</span></h5>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos aliquid molestias corrupti nemo voluptates sequi aliquam cupiditate magnam.</p>
+                    </div>
+                    <div class="col-12 col-md-3 card">
+                       <img src="https://cdn.pixabay.com/photo/2018/10/08/14/46/bird-3732867_960_720.jpg" alt="img">
+                       <h5>Title <span class="float-right">$1000</span></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore inventore dignissimos cum explicabo maiores delectus pariatur.</p>
+                    </div>
+                    <div class="col-12 col-md-3 card">
+                        <img src="https://cdn.pixabay.com/photo/2018/10/08/14/46/bird-3732867_960_720.jpg" alt="img">
+                        <h5>Title <span class="float-right">$1000</span></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quisquam fugit quasi rerum ipsam, odit expedita! Blanditiis aliquam cumque.</p>
+                    </div>
+                </div>
+                <div class="row content">
+                    <div class="col-12 col-md-3 card">
+                       <img src="https://cdn.pixabay.com/photo/2018/10/08/14/46/bird-3732867_960_720.jpg" alt="img">
+                       <h5>Title <span class="float-right">$1000</span></h5>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos aliquid molestias corrupti nemo voluptates sequi aliquam cupiditate magnam.</p>
+                    </div>
+                    <div class="col-12 col-md-3 card">
+                       <img src="https://cdn.pixabay.com/photo/2018/10/08/14/46/bird-3732867_960_720.jpg" alt="img">
+                       <h5>Title <span class="float-right">$1000</span></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore inventore dignissimos cum explicabo maiores delectus pariatur.</p>
+                    </div>
+                    <div class="col-12 col-md-3 card">
+                        <img src="https://cdn.pixabay.com/photo/2018/10/08/14/46/bird-3732867_960_720.jpg" alt="img">
+                        <h5>Title <span class="float-right">$1000</span></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quisquam fugit quasi rerum ipsam, odit expedita! Blanditiis aliquam cumque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!--=============================================
+                       Quinto Div
+           =============================================-->
+        <div class="row">
+            <div class="calculo">
+                <div class="col-12">
+                    <h2 class="text-white">Obtenga una estimacion rapida</h2>
+                    <h5 class="text-white">Reciba ayuda profesional</h5>
+                </div>
+                <div class="col-12 estimacion">
+                    <form action="">
+                        <select name="ciudad" id="ciudad">
+                            <option selected>Ciudad</option>
+                            <option value="">2 Ciudad</option>
+                            <option value="">3 Ciudad</option>
+                            <option value="">4 Ciudad</option>
+                        </select>
+                        <input type="date">
+                        <select name="people" id="people">
+                            <option selected>1 personas</option>
+                            <option value="">2 personas</option>
+                            <option value="">3 personas</option>
+                            <option value="">4 personas</option>
+                        </select>
+                        <input type="submit" value="calular">
+                    </form>
+                </div>
+            </div>
+        </div>
+       <!--=============================================
+                       Sexto Div
+           =============================================-->
+           <div class="row">
+               <div class="blog">
+                   <div class="col-12 titulo">
+                       <h2>Ultimas Publicaciones</h2>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, quidem reprehenderit ducimus recusandae fugit odit. Magnam, illum. Similique explicabo asperiores atque consequatur minus suscipit sequi beatae iste hic quo, assumenda.</p>
+                   </div>
+                   <div class="col-12 blogs">
+                       <div class="row">
+                            <div class="col-12 col-md-6">
+                                 <div class="card" style="width: 18rem;">
+                                  <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/09/23/20/56/sparrow-3698507_960_720.jpg" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Seguir Leyendo</a>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="card" style="width: 18rem;">
+                                  <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/09/23/20/56/sparrow-3698507_960_720.jpg" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Seguir Leyendo</a>
+                                  </div>
+                                </div>
+                            </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           
+       <!--=============================================
+                       Septimo Div
+           =============================================-->
+           <div class="row">
+               <div class="top">
+                   <div class="row">
+                       <div class="col-12 col-md-6">
+                            <div class="paises">
+                              <h5 class="text-white">Top Paises</h5>
+                               <ul class="">
+                                   <li><a href="#"><span><i class="fas fa-fire"></i>    Vuelos a</span> Estados Unidos</a></li>
+                                   <li><a href="#"><span><i class="fas fa-fire"></i>    Vuelos a</span> España</a></li>
+                                   <li><a href="#"><span><i class="fas fa-fire"></i>    Vuelos a</span> Italia</a></li>
+                                   <li><a href="#"><span><i class="fas fa-fire"></i>    Vuelos a</span> Alemania</a></li>
+                                   <li><a href="#"><span><i class="fas fa-fire"></i>    Vuelos a</span> Francia</a></li>
+                               </ul>
+                            </div>
+                       </div>
+                       <div class="col-12 col-md-6">
+                            <div class="paises">
+                              <h5 class="text-white">Top Ciudades</h5>
+                               <ul class="">
+                                   <li><a href="#"><span><i class="fas fa-map-marker-alt"></i>    Vuelos a</span> Londres</a></li>
+                                   <li><a href="#"><span><i class="fas fa-map-marker-alt"></i>    Vuelos a</span> Paris</a></li>
+                                   <li><a href="#"><span><i class="fas fa-map-marker-alt"></i>    Vuelos a</span> Orlando</a></li>
+                                   <li><a href="#"><span><i class="fas fa-map-marker-alt"></i>    Vuelos a</span> New York</a></li>
+                                   <li><a href="#"><span><i class="fas fa-map-marker-alt"></i>    Vuelos a</span> Roatán</a></li>
+                               </ul>
+                            </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           
+       <!--=============================================
+                       Footer
+           =============================================-->
+        <div class="row">
+            <footer class="footer">
+               <div class="row">
+                   <div class="col-12 col-md-8">
+                       <div class="privacy">
+                           <ul>
+                               <li><a href="#">About Us</a></li>
+                               <li><a href="#">Jobs</a></li>
+                               <li><a href="#">Afiliate</a></li>
+                               <li><a href="#">Terms of use</a></li>
+                               <li><a href="#">Privacy Policy</a></li>
+                               <li><a href="#">Cookies</a></li>
+                               <li><a href="#">Airlines</a></li>
+                               <li><a href="#">Apps</a></li>
+                               <li><a href="#">Help</a></li>
+                           </ul>
+                       </div>
+                   </div>
+                   <div class="col-12 col-md-4">
+                       <div class="redes-sociales">
+                           <ul>
+                               <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                               <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                               <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+            </footer>
+        </div>
+
+       
+         
+             
+        
+    </div>
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+    
+  </body>
+</html>

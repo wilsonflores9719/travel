@@ -1,0 +1,104 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url("https://fondos.fondoshd.com/images/hd/isla-corazon-5330e5b35c4a4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden; }
+  .header .cita {
+    position: absolute;
+    top: 25%;
+    background: rgba(189, 195, 199, 0.7);
+    padding: 10px;
+    border-radius: 10px; }
+  .header .cont {
+    position: absolute;
+    bottom: 2%;
+    left: auto;
+    width: 100%;
+    background: #7241B2;
+    padding-bottom: 10px; }
+    .header .cont .viaje ul > li {
+      display: inline-block;
+      padding: 15px 10px;
+      margin-bottom: 0; }
+      .header .cont .viaje ul > li:hover {
+        background: #4e0ea0; }
+      .header .cont .viaje ul > li .active {
+        padding: 15px 10px;
+        background: #4e0ea0; }
+      .header .cont .viaje ul > li a {
+        text-decoration: none;
+        color: white; }
+    .header .cont .form-nav {
+      margin: 0px 10px; }
+      .header .cont .form-nav hr {
+        background: #fff;
+        margin: 0; }
+      .header .cont .form-nav .text {
+        float: left;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background: #fff;
+        margin-top: 10px;
+        margin-left: 10px;
+        height: 30px;
+        line-height: 30px; }
+        .header .cont .form-nav .text a {
+          cursor: text;
+          color: #aaa;
+          margin: 0 10px 0 0; }
+        .header .cont .form-nav .text span {
+          background: #7241B2; }
+        .header .cont .form-nav .text input[type="text"],
+        .header .cont .form-nav .text input[type="date"],
+        .header .cont .form-nav .text select {
+          margin-top: 10px;
+          border: none;
+          outline: none;
+          background: transparent;
+          margin: 0; }
+      .header .cont .form-nav .boton {
+        position: relative; }
+        .header .cont .form-nav .boton input[type="submit"] {
+          position: absolute;
+          right: 0;
+          margin-top: 10px;
+          margin-right: 49px;
+          width: 100px;
+          border: 1px solid #000;
+          outline: none; }
+          .header .cont .form-nav .boton input[type="submit"]:hover {
+            color: white;
+            background: #4e0ea0;
+            -webkit-box-shadow: 2px 2px #000;
+            box-shadow: 2px 2px #000; }
+      .header .cont .form-nav .tipo ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        .header .cont .form-nav .tipo ul li {
+          display: inline-block;
+          color: #fff; }
+          .header .cont .form-nav .tipo ul li select {
+            color: #fff;
+            border: none;
+            outline: none;
+            background-color: transparent; }
+            .header .cont .form-nav .tipo ul li select option {
+              color: #000; }

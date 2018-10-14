@@ -1,0 +1,76 @@
+$bg1: #7241B2;
+$bg2: rgba(189, 195, 199, 0.7);
+$bg3: #4e0ea0;
+$bg-white:#fff;
+$bg-black:#000;
+$bg-black-op: rgba(0,0,0, .6);
+
+.actividades{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    
+    background-image: url('https://cdn.pixabay.com/photo/2015/01/31/10/26/monument-valley-618363_960_720.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    z-index: 1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &:after{
+        content: '';
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: $bg-black-op;
+        z-index: -1;
+    }
+    
+    & .titulo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    & .act ul>li{
+        margin: 0;
+        margin-top: 20px;
+        padding: 10px;
+        position: relative;
+        display: inline-block;
+        width: 200px;
+        background: $bg1;
+        
+        &:before{
+            position: absolute;
+            content: '';
+            border: 1px solid white;
+            top: 6px;
+            bottom: 6px;
+            left: 6px;
+            right: 6px;
+        }
+        
+        & p.icon{
+            margin: 0;
+            margin-top: 10px;
+            font-size: 40px;
+            text-align: center;
+        }
+        
+        & p.text-act{
+            margin: 0;
+            padding: 0;
+            margin-top: 10px;
+            font-size: 20px;
+            text-align: center; 
+        }
+    }
+    
+}
